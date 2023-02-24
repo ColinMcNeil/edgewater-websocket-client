@@ -2,7 +2,7 @@
   "name": "edgewater-websocket-client",
   "packageManager": "yarn@3.4.1",
   "scripts": {
-    "start": "nodemon index.mjs"
+    "start": "nodemon server.mjs"
   },
   "dependencies": {
     "express": "4",
