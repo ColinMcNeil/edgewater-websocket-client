@@ -1,6 +1,9 @@
 {
   "name": "edgewater-websocket-client",
   "packageManager": "yarn@3.4.1",
+  "engines": {
+    "node": ">=13.2.0"
+  },
   "scripts": {
     "start": "nodemon server.mjs"
   },
