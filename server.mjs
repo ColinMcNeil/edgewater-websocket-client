@@ -7,7 +7,7 @@ const wss = new WebSocketServer({ port: 3000 });
 const commands = {
   quit(client, connection) {
     connection.ws.send("Command - quit");
-    client.removeWebsocket(connection, symbol);
+    client.removeWebsocket(connection);
     connection.ws.terminate();
   },
   symbol: {
